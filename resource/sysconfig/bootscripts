@@ -1,16 +1,15 @@
 ########################################################################
-# Begin /etc/sysconfig/bootscripts
+# 位置: /etc/sysconfig/bootscripts
 #
-# Description : Bootscripts Config System
+# 作用:配置系统引导脚本
 #
-# Authors     :
+# 原作者:  
 #
-# Version     : 00.00
+# 版本: 00.00
 #
-# Notes       : Controls different aspects of the bootscripts.
-#
+# 说明:此文件为弦歌Linux专用，修改至CLFS脚本，如有问题请联系josnk.echo@gmail.com或swordhui@hotmail.com
+# 备注:控制系统后的配置
 ########################################################################
-
 # Enable/disable interactive Prompts
 # Enable	- INTERACTIVE=y
 # Disable 	- INTERACTIVE=

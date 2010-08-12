@@ -1,29 +1,16 @@
 #!/bin/bash
 ########################################################################
-# Begin $rc_base/init.d/checkfs
+# 位置: /etc/init.d/checkfs
 #
-# Description : File System Check
+# 作用:检查文件系统
 #
-# Authors     : Gerard Beekmans - gerard@linuxfromscratch.org
-#		A. Luebke - luebke@users.sourceforge.net
+# 原作者:
 #
-# Version     : 00.00
+# 版本: 00.00
 #
-# Notes       :
+# 说明:此文件为弦歌Linux专用，修改至CLFS脚本，如有问题请联系josnk.echo@gmail.com或swordhui@hotmail.com
 #
-# Based on checkfs script from LFS-3.1 and earlier.
-#
-# From man fsck
-# 0    - No errors
-# 1    - File system errors corrected
-# 2    - System should be rebooted
-# 4    - File system errors left uncorrected
-# 8    - Operational error
-# 16   - Usage or syntax error
-# 32   - Fsck canceled by user request
-# 128  - Shared library error
-#
-#########################################################################
+########################################################################
 
 . /etc/sysconfig/rc
 . ${rc_functions}

@@ -1,18 +1,16 @@
 #!/bin/bash
-# Begin $rc_base/init.d/consolelog
-
 ########################################################################
+# 位置: /etc/init.d/consolelog
 #
-# Description : Set the kernel log level for the console
+# 作用:设置内核日志级别至控制台
 #
-# Authors     : Dan Nicholson - dnicholson@linuxfromscratch.org
+# 原作者:Dan Nicholson - dnicholson@linuxfromscratch.org
 #
-# Version     : 00.00
+# 版本: 00.00
 #
-# Notes       : /proc must be mounted before this can run
-#
+# 说明:此文件为弦歌Linux专用，修改至CLFS脚本，如有问题请联系josnk.echo@gmail.com或swordhui@hotmail.com
+# 备注:使用之前需要安装/proc
 ########################################################################
-
 . /etc/sysconfig/rc
 . ${rc_functions}
 
