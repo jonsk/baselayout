@@ -16,10 +16,10 @@ History
 		add /etc/hosts file.
 
 	loongson64 
-		¸ü»»À´×ÔCLFSµÄÆô¶¯½Å±¾£¬ËÙ¶È¸ü¿ì
-		Ôö¼ÓÁËbash×Ô¶¯²¹È«¹¦ÄÜµÄ½Å±¾
-		Ôö¼ÓÁËfstabÖÐÍøÂçÎÄ¼þNFSµÄ×¢ÊÍ£¬ÐÞ¸Äºó¼´¿ÉÊ¹ÓÃ
-		profileÖÐÔö¼ÓÁËÐÂµÄ±ðÃû
-		ÍøÂç¿ØÖÆ½Å±¾¸ÄÓÉ/etc/sysconfig/network-devices/ÏÂµÄÍø¿¨ÎÄ¼þ¼Ð¿ØÖÆ
+		æ›´æ¢æ¥è‡ªCLFSçš„å¯åŠ¨è„šæœ¬ï¼Œé€Ÿåº¦æ›´å¿«
+		å¢žåŠ äº†bashè‡ªåŠ¨è¡¥å…¨åŠŸèƒ½çš„è„šæœ¬
+		å¢žåŠ äº†fstabä¸­ç½‘ç»œæ–‡ä»¶NFSçš„æ³¨é‡Šï¼Œä¿®æ”¹åŽå³å¯ä½¿ç”¨
+		profileä¸­å¢žåŠ äº†æ–°çš„åˆ«å
+		ç½‘ç»œæŽ§åˆ¶è„šæœ¬æ”¹ç”±/etc/sysconfig/network-devices/ä¸‹çš„ç½‘å¡æ–‡ä»¶å¤¹æŽ§åˆ¶
 
 	
