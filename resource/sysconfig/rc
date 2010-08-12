@@ -3,19 +3,16 @@
 #
 # Description : rc script configuration
 #
-# Authors :
+# Authors     :
 #
-# Version : 00.00
+# Version     : 00.00
 #
-# Notes :
+# Notes       :
 #
 ########################################################################
+
 rc_base=/etc/rc.d
 rc_functions=${rc_base}/init.d/functions
 network_devices=/etc/sysconfig/network-devices
 
-#set to 1 if you hardware clock is in UTC time.
-#UTC=1
-
 # End /etc/sysconfig/rc
-

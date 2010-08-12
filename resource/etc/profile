@@ -11,12 +11,25 @@ fi
 #	export LANG=zh_CN.GB2312
 #fi
 
+if [ -f /etc/bash_completion ]; then  
+     . /etc/bash_completion  
+fi
+
 export PS1
 
-alias ls="ls --color"
+alias ls="ls --color=tty -F"
 alias grep="grep --colour=auto"
 alias su="su -l"
 alias less="less -r"
+
+#alias ll="ls -l"
+#alias l="ls"
+#alias df="df -h"
+#alias du="du -h"
+alias cp="cp -i"
+alias rm="rm -i"
+alias mv="mv -i"
+#alias x="startx"
 
 #dir color.
 . /etc/DIRCOLORS
