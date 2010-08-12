@@ -14,6 +14,12 @@ History
 
 	0.2.1
 		add /etc/hosts file.
-		
+
+	loongson64 
+		更换来自CLFS的启动脚本，速度更快
+		增加了bash自动补全功能的脚本
+		增加了fstab中网络文件NFS的注释，修改后即可使用
+		profile中增加了新的别名
+		网络控制脚本改由/etc/sysconfig/network-devices/下的网卡文件夹控制
 
 	
