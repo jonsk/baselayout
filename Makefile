@@ -26,7 +26,7 @@ install:
 #	@install -m 0644 -o 0 -g 0 -p resource/etc/* ${prefix}/etc
 	@cp -ar resource/etc/* ${prefix}/etc
 	@chmod 0644  ${prefix}/etc/*
-	@chown root:root -R ${prefix}/etc
+	@chown 0:0 -R ${prefix}/etc
 
 	#init.d
 	@install -d -m 0655 -o 0 -g 0 ${prefix}/etc/rc.d
