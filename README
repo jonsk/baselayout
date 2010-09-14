@@ -22,4 +22,9 @@ History
 		profile中增加了新的别名
 		网络控制脚本改由/etc/sysconfig/network-devices/下的网卡文件夹控制
 
+	2010年9月14日更新
+		修正了安装时出错的问题
+		加强了bash自动补全功能的脚本，其补全代码增加了3倍多。支持更多的命令
+		加入了lib32和lib64为连接
+
 	
