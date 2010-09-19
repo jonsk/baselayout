@@ -1,0 +1,13 @@
+CC="gcc"
+CXX="g++"
+CFLAGS="-march=loongson2f -mabi=n32 -O3 -fomit-frame-pointer -pipe -mplt"
+#CFLAGS="-march=native -mtune=native -O2 -fomit-frame-pointer -pipe"
+CXXFLAGS="$CFLAGS"
+XG_I18N="en zh_CN"
+
+#CCACHE_DIR=/ccache
+#CCACHE_SIZE="2G"
+#CC="ccache gcc"
+#CPP="ccache cpp"
+#CXX="ccache g++"
+#MAKEOPTS="-j4"
